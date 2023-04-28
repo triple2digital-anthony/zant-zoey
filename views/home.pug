@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title My Form Page
+    style
+      include ./home.css
+    script(src='https://code.jquery.com/jquery-3.6.0.min.js')
+    script.
+      $(function() {
+        $("#scenario").change(function() {
+            const value = $(this).val();
+            console.log("value: " + value);
+            const location = window.location.href.split("?")[0] + "?id=" + value;
+            window.location.href = location
+
+        });
+
+
+        $('form').on('submit', function(e) {
+          e.preventDefault();
+      
+          $.ajax({
+            url: '/ask',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                scenarioId: $("#scenario").val() || "",
+                question: $("#question").val(),
+                prevAnswer: $("#prevAnswer").val() || null,
+            }),
+            success: function(data) {
+                console.log("data",data.data.answer)
+              $('#output').val(data.data.answer);
+            }
+          });
+        });
+      });
+  body
+    .container
+        h1.header API Check
+        form
+            label(for='scenario') Scenario:
+            select(name='scenario' id='scenario')
+                each item in scenarioOptions
+                    if item.id == selectedValue
+                        option(value=item.id selected)= item.name
+                    else
+                        option(value=item.id)= item.name
+            label(for='prevAnswer') Previous Answer:
+            select(name='prevAnswer' id='prevAnswer')
+                each item in previousAnswers
+                    option(value=item)= item
+            label(for='question') Question:
+            select(name='question' id='question')
+                each item in questionOptions
+                    option(value=item)= item
+            textarea#output(name='output' rows='10' cols='50')
+            button(type='submit') Ask
+    script.
+      var scenarioOptions = #{JSON.stringify(scenarioOptions)};
+      var prevAnswerOptions = #{JSON.stringify(previousAnswers)};
+      var questionOptions = #{JSON.stringify(questionOptions)};

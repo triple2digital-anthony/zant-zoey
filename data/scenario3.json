@@ -1,0 +1,38 @@
+[
+  {
+    "input": "unknown",
+    "output": "Oops! I don’t understand the question. Feel free to send an email to support@zant.app for further information or poke around on the app!"
+  },
+  {
+    "input": "Hi Zoey, I've been feeling really stressed lately. I'm a college student and I feel like I'm constantly under pressure from my family and school.",
+    "output": "Hi there! I'm sorry to hear that. College can be a stressful time, especially when there are high expectations from family and school. Can you tell me more about what's been causing your stress?"
+  },
+  {
+    "input": "My parents want me to get straight A's, and I'm struggling with some of my classes. I also have a lot of assignments and exams coming up.",
+    "output": "I see. It sounds like you're dealing with a lot of pressure from both your family and school. Based on what you've shared, I think some of our providers who specialize in academic stress and burnout could be a good fit for you. Would you like me to suggest some providers?"
+  },
+  {
+    "input": "Yes, please.",
+    "output": "Great! I have a few providers in mind that could be a good fit for you. Would you like me to book a session with one of them for you or I can list them for you to view?"
+  },
+  {
+    "input": "Yes, that would be great if you can book one",
+    "output": "Sure thing. Can you please let me know your preferred date and time for the session?"
+  },
+  {
+    "input": "How about {day} at {time}?",
+    "output": "Can you confirm your time zone?"
+  },
+  {
+    "input": "Yes {timezone}",
+    "output": "Got it. I have booked a session for you with {provider} on {day} at {time} {timezone}. You'll receive a confirmation email shortly. Is there anything else I can assist you with?"
+  },
+  {
+    "input": "Actually, can you also share the other providers you were thinking about?",
+    "output": "Sure thing! I would suggest {providers}. I booked you a session with PROVIDER NAME. Is there anything else I can assist you with?"
+  },
+  {
+    "input": "No, thats it for now. Thank you, zoey.",
+    "output": "You're welcome! Don't hesitate to message me if you need anything else. Take care!"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "input": "unknown",
+    "output": "Oops! I don’t understand the question. Feel free to send an email to support@zant.app for further information or poke around on the app!"
+  },
+  {
+    "input": "I’m dealing with stress and anxiety from my job. I feel really overwhelmed and I dont really know what to do…",
+    "output": "Gotcha… I’m so sorry to hear you’re going through this. I noticed you had mentioned feeling stress, anxious, and overwhelmed - is that correct?"
+  },
+  {
+    "input": "Yes",
+    "output": "Ok! At Zant, we offer a wide variety of services and focus areas to help you through times like these. We happen to have providers who are specialists, coaches, and counselors. Would you like a few recommendations?"
+  },
+  {
+    "input": "Sure",
+    "output": "Okay one moment…  I would recommend {providers} Would you like me to send them a chat for you with the details you shared with me?"
+  },
+  {
+    "input": "Sure",
+    "output": "Great- sending those chats now. You can also look at their profiles, directly message them, or book a free consultation to see if its the right fit. Is there anything else you’d like to talk about?"
+  },
+  {
+    "input": "Yes - are all sessions free?",
+    "output": "Sadly, no. However, we have a every first session with a provider is free and sessions after are $25 and below for students, or start at $35 for standard and non student rates."
+  },
+  {
+    "input": "How can I book my free session?",
+    "output": "When you see a provider who you want to schedule an appointment with, you can simple click “Book a Session” and choose the best day and time for your session!"
+  },
+
+  {
+    "input": "How can I report a provider?",
+    "output": "Please contact support@zant.app with any details or reasoning behind reporting a provider."
+  },
+  {
+    "input": "Do you take insurance?",
+    "output": "We currently do not work with insurance, however, our providers work at low costs started at $25 and your first session is always free. If you see a provider who isn’t in your price range, feel free to send them a message- they’re here to help and are open to working with you financially."
+  },
+  {
+    "input": "Thats all.",
+    "output": "Ok! Thank you so much. If you need anything, feel free to send me a message or say commends such as 'hey zoey send my provider a message' or 'hey zoey reschedule my session'."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "input": "unknown",
+    "output": "Oops! I don’t understand the question. Feel free to send an email to support@zant.app for further information or poke around on the app!"
+  },
+  {
+    "input": "Hi Zoey, I'm a mother of three children and I'm feeling really lost and purposeless lately.",
+    "output": "Hi there! I'm sorry to hear that. It can be challenging to juggle motherhood and personal goals. Can you tell me more about what's been causing you to feel this way?"
+  },
+  {
+    "input": "I used to have a career before having children, but now I feel like I've lost myself and my purpose. I love my kids, but I want to find something that's just for me.",
+    "output": "I understand and I’m sorry you’re going through this. Based on what you've shared, I think some of our providers who specialize in identity and purpose coaching could be a good fit for you. Would you like me to suggest some providers?"
+  },
+  {
+    "input": "Yes, please.",
+    "output": "Great! I have a few providers in mind that could be a good fit for you. Would you like me to book a session with one of them for you?"
+  },
+  {
+    "input": "Yes, that would be great.",
+    "output": "Sure thing. Can you please let me know your preferred date and time for the session as well as time zone?"
+  },
+  {
+    "input": "How about {day} at {timeWithTimezone}?",
+    "output": "Got it. I have booked a session for you with {provider} on Thursday at {time}. You'll receive a confirmation email shortly. Is there anything else I can assist you with?"
+  },
+  {
+    "input": "No, that's it for now. Thank you, Zoey.",
+    "output": "You're welcome! Don't hesitate to message me if you need anything else. Take care!"
+  }
+]

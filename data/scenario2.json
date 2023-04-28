@@ -1,0 +1,34 @@
+[
+  {
+    "input": "unknown",
+    "output": "Oops! I don’t understand the question. Feel free to send an email to support@zant.app for further information or poke around on the app!"
+  },
+  {
+    "input": "Hi Zoey, I'm feeling really stressed and burnt out lately. I'm having trouble sleeping and focusing on work.",
+    "output": "Hi there! I'm sorry to hear that. It sounds like you're going through a tough time. Can you tell me more about what's been causing your stress and burnout?"
+  },
+  {
+    "input": "I've been working long hours and taking care of my family, and I just feel like I don't have enough time for myself.",
+    "output": "I understand. It can be tough to balance work, family, and personal time. Based on what you've shared, I think some of our providers who specialize in stress management and work-life balance could be a good fit for you. Would you like me to suggest some providers?"
+  },
+  {
+    "input": "Yes, please.",
+    "output": "Great! I have a few providers in mind that could be a good fit for you. Would you like me to book a session with one of them for you?"
+  },
+  {
+    "input": "Yes, that would be great.",
+    "output": "Sure thing. Can you please let me know your preferred date and time for the session?"
+  },
+  {
+    "input": "How about next {day} at {time}?",
+    "output": "To confirm, what time zone are you in?"
+  },
+  {
+    "input": "{timezone}",
+    "output": "Got it. I have booked a session for you with {providers} at 3 pm. You'll receive a confirmation email shortly. Is there anything else I can assist you with?"
+  },
+  {
+    "input": "No, that's it for now. Thank you, Zoey",
+    "output": "You're welcome! Don't hesitate to message me if you need anything else. Take care!"
+  }
+]
